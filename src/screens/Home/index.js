@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { SafeAreaView, View, FlatList, Text } from "react-native";
+import { useNavigation } from '@react-navigation/native';
 import Title from '../../component/Title';
 import Styles from "./styles";
 import Categories from '../../component/Categories';
@@ -7,8 +8,6 @@ import AttractionCard from "../../component/AttractionCard";
 import styles from "./styles";
 import jsonData from "../../component/data/Attractions.json";
 import categories from "../../component/data/categories.json";
-import { useNavigation } from '@react-navigation/native';
-
 
 const All = 'All';
 
@@ -57,9 +56,10 @@ const Home = () => {
                     <AttractionCard
                         key={item.id}
                         style={index % 2 === 0 ? { marginRight: 12, marginLeft: 32 } : { marginRight: 32 }}
-                        onpress={
-                            navigation.navigate('AttractionDetails')
-                        }
+                        onPressItem={() => {
+                            console.log("hey");
+                            navigation.navigate('AttractionDetails', { item })
+                        }}
                         title={item.name}
                         subtitle={item.city}
                         imageSrc={item.images?.length ? item.images[0] : null}

@@ -2,9 +2,9 @@ import React from 'react';
 import { Image, Text, View, TouchableOpacity } from 'react-native';
 import styles from './styles';
 
-const AttractionCard = ({ imageSrc, title, subtitle, style, onpress }) => {
+const AttractionCard = ({ imageSrc, title, subtitle, style, onPressItem }) => {
     return (
-        <TouchableOpacity onpress={onpress} style={[styles.card, style]}>
+        <TouchableOpacity onPress={onPressItem} style={[styles.card, style]}>
             <Image style={styles.image} source={{ uri: imageSrc }} />
             <Text style={styles.title}>{title}</Text>
             <View style={styles.row}>
