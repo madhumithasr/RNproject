@@ -14,7 +14,7 @@
         ],
         "images": [
             "https://www.arttrav.com/wp-content/uploads/2021/06/colosseum-alexandrakorey.jpg",
-            "https://www.history.com/.image/t_share/MTkwODIxMzcwNDI5NDQ5OTEw/gettyimages-1081719544.jpg",
+            "https://cdn.destguides.com/files/store/itinerarystop/28557/background_image/jpeg_medium_202112291737-9474d789ed9077bf12e924d7e3583490.jpeg",
             "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
             "https://static01.nyt.com/images/2022/06/12/world/12italy-colosseum-01/merlin_206622975_bf44e9c5-b817-405f-b46a-33f6fe5f88a8-superJumbo.jpg",
             "http://cdn.cnn.com/cnnnext/dam/assets/200925160752-colosseum-file-restricted.jpg",
@@ -76,7 +76,7 @@
     },
     {
         "id": 4,
-        "name": "Leaning Tower of Pisa",
+        "name": "Leaning Tower",
         "city": "Pisa",
         "country": "Italy",
         "entry_price": "$20",
@@ -89,7 +89,8 @@
         "images": [
             "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
             "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-            "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+            "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg",
+            "https://www.thegeographicalcure.com/wp-content/uploads/2021/10/img_61582df848315."
         ],
         "coordinates": {
             "lat": 43.7230,
