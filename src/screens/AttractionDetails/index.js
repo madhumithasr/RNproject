@@ -40,7 +40,7 @@ ${item?.opening_time} - ${item?.closing_time}`;
           <Pressable onPress={onBack} hitSlop={8}>
             <Image
               style={styles.icon}
-              source={require('../../assets/back.png')}
+              source={require('../../assets/back.jpg')}
             />
           </Pressable>
           <Pressable hitSlop={8}>

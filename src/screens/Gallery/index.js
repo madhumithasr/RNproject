@@ -19,7 +19,7 @@ const Gallery = ({ navigation, route }) => {
                 )} />
 
                 <TouchableOpacity onPress={onBack} style={styles.backContainer}>
-                    <Image source={require('../../assets/back.png')} style={styles.backIcon} />
+                    <Image source={require('../../assets/back.jpg')} style={styles.backIcon} />
                 </TouchableOpacity>
             </View>
         </SafeAreaView>
